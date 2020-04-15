@@ -1,0 +1,18 @@
+spring:
+  profiles:
+    active: dev
+---
+spring:
+  security:
+    user:
+      name: bjl
+      password: 123
+  profiles: dev
+server:
+  port: 8088
+---
+
+server:
+  port: 8082
+spring:
+  profiles: pro
